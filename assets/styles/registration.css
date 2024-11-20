@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open-Sans';
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+
+body {
+    background: #ffffff;
+    padding: 80px;
+}
+
+.section-head {
+    background: #333333;
+    height: 80px;
+}
+
+.section-auth .container .box-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 609px;
+    height: 713px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(44, 48, 46, 0.25);
+
+}
+
+.section-auth .container .box-auth .mini-box-auth {
+    display: flex;
+    flex-direction: column;
+    width: 427px;
+
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.section-auth .container .box-auth .mini-box-auth .logo-padding{
+    padding-bottom: 4px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-logo .logo{
+    display: flex;
+    gap: 9px;
+    align-items: end;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-auth {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 24px;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-auth input {
+    width: 427px;
+    height: 43px;
+    border-radius: 6px;
+    background: #333333;
+    padding: 13px;
+    color: #ffffff;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-auth ::placeholder{
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-password {
+    color: #333333;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+.section-auth .container .box-auth .mini-box-auth .sec-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-next .button-auth {
+    width: 210px;
+    height: 38px;
+    color: #ffffff;
+    background: #E63350;
+    border-radius: 5px;
+    transition: .3s;
+}
+.section-auth .container .box-auth .mini-box-auth .sec-next .button-auth:hover {
+    transition: .5s;
+    background: rgba(131, 1, 19, 0.25);
+    color: #E63350;
+    box-shadow: 0px 0px 7px rgb(156, 2, 47);
+}
